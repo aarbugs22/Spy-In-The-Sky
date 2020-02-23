@@ -73,7 +73,7 @@ public class DialogueSystem : MonoBehaviour
                 if (msgId < currentMessages.Count)
                     messageText.text = currentMessages[msgId];
 
-                if (msgId == currentMessages.Count - 1)
+                if (useDialogue && msgId == currentMessages.Count - 1)
                     yesButton.transform.parent.gameObject.SetActive(true);
             }
 
