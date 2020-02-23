@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
+    [SerializeField] Actions[] actions;
     [SerializeField] float distancePosition = 1f;
 
     public Vector3 InteractPosition()
@@ -29,5 +30,10 @@ public class Interactable : MonoBehaviour
         Debug.Log("Player arrived");
 
         player.SetDirection(transform.position);
+
+        for (int i = 0; i < actions.Length; i++)
+        {
+            actions[i].Act();
+        }
     }
 }

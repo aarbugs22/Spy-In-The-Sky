@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class PlayerScript : MonoBehaviour
 {
-    private NavMeshAgent agent; //Grabs NavMeshAgent from component and access it from this script
+    private NavMeshAgent agent; //Grabs NavMeshAgent from component
     private Camera mainCamera; //Reference to main camera
 
     private bool turning; //Default to false
@@ -16,13 +16,13 @@ public class PlayerScript : MonoBehaviour
     {
         mainCamera = Camera.main; //Stores main camera
 
-        agent = GetComponent<NavMeshAgent>(); //Refenrence here
+        agent = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0)) //If left mouse button is clicked, execute "OnClick"
+        if (Input.GetMouseButtonDown(0) && !Extensions.IsMouseOverUI()) //If left mouse button is clicked, execute "OnClick"
             OnClick();
 
         if (turning && transform.rotation != targerRot) //If turning is true and if the transform.rotation isn't the same as the targetRot
@@ -33,12 +33,12 @@ public class PlayerScript : MonoBehaviour
 
     void OnClick()
     {
-        Debug.Log("Left Clicked!");
+        Debug.Log("LeftMouseButton Clicked!");
 
         RaycastHit hit; 
         Ray camToScreen = mainCamera.ScreenPointToRay(Input.mousePosition); //From screen position shoots a ray to the scene
 
-        if (Physics.Raycast(camToScreen, out hit, Mathf.Infinity)) //Whenever the ray hits something ("something" has alot of information), it gets saved inside "hit"
+        if (Physics.Raycast(camToScreen, out hit, Mathf.Infinity))
         {
             if (hit.collider != null) //if it hits something
             {
@@ -67,6 +67,8 @@ public class PlayerScript : MonoBehaviour
         turning = false;
 
         agent.SetDestination(targetPosition);
+
+        DialogueSystem.Instance.HideDialogue();
     }
 
     public void SetDirection(Vector3 targetDirection)
