@@ -314,6 +314,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -394,11 +399,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -484,6 +484,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -564,11 +569,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -881,6 +881,82 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 34679372}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &84805419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df29e7cc05fbec4aa43e06ea875565d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  rotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  skyIntensityMode:
+    m_OverrideState: 0
+    m_Value: 0
+  exposure:
+    m_OverrideState: 0
+    m_Value: 0
+  multiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxValue:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  desiredLuxValue:
+    m_OverrideState: 0
+    m_Value: 20000
+  updateMode:
+    m_OverrideState: 0
+    m_Value: 0
+  updatePeriod:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  includeSunInBaking:
+    m_OverrideState: 0
+    m_Value: 0
+  sunSize:
+    m_OverrideState: 0
+    m_Value: 0.04
+    min: 0
+    max: 1
+  sunSizeConvergence:
+    m_OverrideState: 0
+    m_Value: 5
+    min: 1
+    max: 10
+  atmosphereThickness:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 5
+  skyTint:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  groundColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.369, g: 0.349, b: 0.341, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  enableSunDisk:
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!1 &86423720
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,6 +1226,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -1230,11 +1311,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1264,6 +1340,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pipe on wall vertical (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
@@ -1345,11 +1426,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1675,6 +1751,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -1755,11 +1836,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2820,6 +2896,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -2900,11 +2981,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2934,6 +3010,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pipe on wall vertical (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
@@ -3015,11 +3096,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3038,82 +3114,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 341121441}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &349549305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3df29e7cc05fbec4aa43e06ea875565d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  rotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  skyIntensityMode:
-    m_OverrideState: 0
-    m_Value: 0
-  exposure:
-    m_OverrideState: 0
-    m_Value: 0
-  multiplier:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxValue:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  desiredLuxValue:
-    m_OverrideState: 0
-    m_Value: 20000
-  updateMode:
-    m_OverrideState: 0
-    m_Value: 0
-  updatePeriod:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-  includeSunInBaking:
-    m_OverrideState: 0
-    m_Value: 0
-  sunSize:
-    m_OverrideState: 0
-    m_Value: 0.04
-    min: 0
-    max: 1
-  sunSizeConvergence:
-    m_OverrideState: 0
-    m_Value: 5
-    min: 1
-    max: 10
-  atmosphereThickness:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-    max: 5
-  skyTint:
-    m_OverrideState: 0
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    hdr: 0
-    showAlpha: 1
-    showEyeDropper: 1
-  groundColor:
-    m_OverrideState: 0
-    m_Value: {r: 0.369, g: 0.349, b: 0.341, a: 1}
-    hdr: 0
-    showAlpha: 1
-    showEyeDropper: 1
-  enableSunDisk:
-    m_OverrideState: 0
-    m_Value: 1
 --- !u!1001 &354458277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3125,6 +3125,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pipe on wall vertical (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
@@ -3206,11 +3211,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3859,6 +3859,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -3939,11 +3944,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4398,6 +4398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -4478,11 +4483,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4703,6 +4703,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -4783,11 +4788,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5432,6 +5432,131 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 596436852}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &597197222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 648070210}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe on wall (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 222401106544194828, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008092635338573703, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -194.29028
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.722712
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.57209
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00046946103
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -179.94601
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.4577947
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.4577947
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.7103586
+      objectReference: {fileID: 0}
+    - target: {fileID: -4040859285818874363, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f1cdfe6d30c57f743b120c39957d3b20, type: 2}
+    - target: {fileID: -3389563940680444170, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f1cdfe6d30c57f743b120c39957d3b20, type: 2}
+    - target: {fileID: -1844915722558363323, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
+    - target: {fileID: 607599454505790133, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9094ba4b9c1a21046ae375813e5ddadf, type: 2}
+    - target: {fileID: 2795239455085862442, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b57d9520274234a48bdd6c4dd69446f8, type: 3}
+--- !u!4 &597197223 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 597197222}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &637260789
 GameObject:
   m_ObjectHideFlags: 0
@@ -6072,6 +6197,8 @@ Transform:
   - {fileID: 817525870}
   - {fileID: 235773957}
   - {fileID: 482923640}
+  - {fileID: 1728071170}
+  - {fileID: 597197223}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6963,6 +7090,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe long (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 895997721228646157, guid: 3a40da06da3e0c64fa955be23728aaa2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008092635338573703, guid: 3a40da06da3e0c64fa955be23728aaa2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3a40da06da3e0c64fa955be23728aaa2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7048,16 +7185,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9094ba4b9c1a21046ae375813e5ddadf, type: 2}
-    - target: {fileID: 895997721228646157, guid: 3a40da06da3e0c64fa955be23728aaa2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3008092635338573703, guid: 3a40da06da3e0c64fa955be23728aaa2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a40da06da3e0c64fa955be23728aaa2, type: 3}
 --- !u!4 &817525870 stripped
@@ -7646,6 +7773,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -7726,11 +7858,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -7955,6 +8082,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -8035,11 +8167,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8069,6 +8196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pipe on wall vertical (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
@@ -8150,11 +8282,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8753,6 +8880,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -8833,11 +8965,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8973,6 +9100,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -9053,11 +9185,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9178,6 +9305,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 222401106544194828, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008092635338573703, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9263,11 +9400,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 222401106544194828, guid: b57d9520274234a48bdd6c4dd69446f8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 607599454505790133, guid: b57d9520274234a48bdd6c4dd69446f8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9278,11 +9410,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3008092635338573703, guid: b57d9520274234a48bdd6c4dd69446f8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b57d9520274234a48bdd6c4dd69446f8, type: 3}
 --- !u!4 &1049385791 stripped
@@ -9402,6 +9529,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -9482,11 +9614,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10887,6 +11014,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -10967,11 +11099,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11001,6 +11128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pipe on wall vertical (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
@@ -11082,11 +11214,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11299,6 +11426,100 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1001 &1307301950
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_Name
+      value: iron valve wheel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -6920486000890555650, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.635
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.25999466
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 65.789
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000041447583
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180.00002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 179.99501
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.33370182
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.33370182
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.33370182
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252962066455824983, guid: f999c90ffd7fb6e4691cdd1b629264bd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 97a21f6eba6152b42af7a808edf8a79c, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f999c90ffd7fb6e4691cdd1b629264bd, type: 3}
 --- !u!1001 &1313844189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13749,6 +13970,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 222401106544194828, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008092635338573703, guid: b57d9520274234a48bdd6c4dd69446f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b57d9520274234a48bdd6c4dd69446f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13834,11 +14065,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 222401106544194828, guid: b57d9520274234a48bdd6c4dd69446f8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 607599454505790133, guid: b57d9520274234a48bdd6c4dd69446f8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13849,11 +14075,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3008092635338573703, guid: b57d9520274234a48bdd6c4dd69446f8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b57d9520274234a48bdd6c4dd69446f8, type: 3}
 --- !u!4 &1595217176 stripped
@@ -14123,6 +14344,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -14203,11 +14429,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14237,6 +14458,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pipe on wall vertical (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
@@ -14318,11 +14544,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14340,6 +14561,121 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6475e4373c7d7a842b011caff4009435,
     type: 3}
   m_PrefabInstance: {fileID: 1660149895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1728071169
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 648070210}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe cross section (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -5569066084417967192, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f1cdfe6d30c57f743b120c39957d3b20, type: 2}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40.38
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -208.90593
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 32.99409
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7068092
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7074043
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -89.952
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.6980357
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.6980357
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.6980376
+      objectReference: {fileID: 0}
+    - target: {fileID: -3489863963101887490, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f1cdfe6d30c57f743b120c39957d3b20, type: 2}
+    - target: {fileID: -3270074412439151306, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f1cdfe6d30c57f743b120c39957d3b20, type: 2}
+    - target: {fileID: 4659886335901445576, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f1cdfe6d30c57f743b120c39957d3b20, type: 2}
+    - target: {fileID: 5448367175083956753, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6cc218ccf4430c84c82d77c4cc973932, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 819e137e1f9fcce43b8f0b7fdb26712e, type: 3}
+--- !u!4 &1728071170 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 819e137e1f9fcce43b8f0b7fdb26712e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1728071169}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1736867845
 GameObject:
@@ -15237,7 +15573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: f92a7f619c8b5c2419c904f629f44ada, type: 2}
   m_StaticLightingSkyUniqueID: 2
-  m_SkySettings: {fileID: 349549305}
+  m_SkySettings: {fileID: 84805419}
   m_SkySettingsFromProfile: {fileID: -2204532324894108090, guid: f92a7f619c8b5c2419c904f629f44ada,
     type: 2}
 --- !u!114 &1796171822
@@ -15975,6 +16311,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -16055,11 +16396,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -16284,6 +16620,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe on wall vertical (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5458421390328829242, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_IsActive
@@ -16364,11 +16705,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 86a0f2c54e1cfe0468531b3cb2e60e1d, type: 2}
-    - target: {fileID: 3362997859791341061, guid: 6475e4373c7d7a842b011caff4009435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3452450932571337588, guid: 6475e4373c7d7a842b011caff4009435,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
