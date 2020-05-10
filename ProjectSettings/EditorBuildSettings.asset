@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Prison_area_evel_design.unity
+    guid: 0ff95869aeb2d3e4b92db224d32bfbac
   m_configObjects: {}
